@@ -1,0 +1,11 @@
+{
+  "env": {
+    "URL": "http://zero.webappsecurity.com/"
+  },
+  "video": false,
+  "defaultCommandTimeout": 5000,
+  "pageLoadTimeout": 10000,
+  "watchForFileChanges": false,
+  "testFiles": "**/*.{feature,features}",
+  "projectId": "cqn18m"
+}

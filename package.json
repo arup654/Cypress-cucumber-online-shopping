@@ -1,0 +1,29 @@
+{
+  "name": "cy-visual-tests",
+  "version": "1.0.0",
+  "description": "Visual regression testing using cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:update-base-snapshots": "cypress run --env updateSnapshots=true",
+    "cy:run-dashboard":"cypress run --record --key 0369badf-e2b9-4341-8a6b-a9e18a5bd753"
+  },
+  "keywords": [
+    "cypress",
+    "visual",
+    "test",
+    "snapshots"
+  ],
+  "author": "Arup Biswas",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^6.8.0",
+    "cypress-cucumber-preprocessor": "^4.0.3",
+    "cypress-image-snapshot": "^4.0.1",
+    "prettier": "^2.2.1"
+  },
+  "cypress-cucumber-preprocessor":
+  {
+    "nonGlobalStepDefinitions": true
+  }
+}
